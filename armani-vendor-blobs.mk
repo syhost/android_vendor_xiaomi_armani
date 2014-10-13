@@ -305,3 +305,7 @@ PRODUCT_COPY_FILES += \
 	vendor/xiaomi/armani/proprietary/bin/qrngd:system/bin/qrngd \
 	vendor/xiaomi/armani/proprietary/bin/qrngp:system/bin/qrngp \
 
+PRODUCT_COPY_FILES += \
+    vendor/xiaomi/armani/proprietary/vendor/lib/hw/power.qcom.so:system/vendor/lib/hw/power.qcom.so \
+
+
